@@ -1,8 +1,8 @@
-# 💬 Sentiment Analysis using Deep Learning (Twitter Dataset)
+# 💬 Sentiment Analysis using Deep Learning
 
 ## 📌 Overview
 
-This project implements a sentiment analysis model using deep learning techniques to classify tweets as positive or negative. It demonstrates how Natural Language Processing (NLP) can be applied to real-world text data.
+This project implements a sentiment analysis model using deep learning techniques to classify tweets as positive or negative.
 
 ---
 
@@ -46,23 +46,25 @@ To build a sentiment analysis model on Twitter data using deep learning techniqu
 ## 📈 Results
 
 * Model successfully classifies sentiment into positive and negative categories
-* Demonstrates effective text pattern recognition using deep learning
+* Demonstrates effective text pattern recognition
 
 ---
 
 ## 🧪 Example Predictions
 
+```
 Input: "The product quality is amazing!"
 Output: Positive
 
 Input: "Very bad service and disappointing experience"
 Output: Negative
+```
 
 ---
 
 ## 🚀 How to Run
 
-```bash
+```bash id="h5s9m1"
 git clone https://github.com/AishwaryGhadle/sentiment-analysis-twitter.git
 cd sentiment-analysis-twitter
 pip install -r requirements.txt
@@ -71,7 +73,7 @@ jupyter notebook
 
 Open:
 
-```bash
+```bash id="5iz1px"
 sentiment_analysis.ipynb
 ```
 
@@ -79,7 +81,7 @@ sentiment_analysis.ipynb
 
 ## 📁 Project Structure
 
-```
+```bash id="q6l2l1"
 sentiment-analysis-twitter/
 │
 ├── sentiment_analysis.ipynb
@@ -106,5 +108,6 @@ MIT License
 ## 👤 Author
 
 **Aishwary Ghadle**
+
 
 
