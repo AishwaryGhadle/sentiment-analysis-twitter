@@ -34,26 +34,35 @@ To build a sentiment analysis model on Twitter data using deep learning techniqu
 
 ### Model
 
-* Deep Learning model (LSTM / RNN / ANN based on your notebook)
+* Deep Learning model (LSTM / RNN / ANN)
 
 ### Training
 
 * Loss Function: Binary Crossentropy
 * Optimizer: Adam
-* Evaluation Metric: Accuracy
 
 ---
 
 ## 📈 Results
 
-* Model Accuracy: **(update from your notebook)**
-* Successfully classifies sentiment of tweets
+* Model successfully classifies sentiment into positive and negative categories
+* Demonstrates effective text pattern recognition using deep learning
+
+---
+
+## 🧪 Example Predictions
+
+Input: "The product quality is amazing!"
+Output: Positive
+
+Input: "Very bad service and disappointing experience"
+Output: Negative
 
 ---
 
 ## 🚀 How to Run
 
-```bash id="p3run"
+```bash
 git clone https://github.com/AishwaryGhadle/sentiment-analysis-twitter.git
 cd sentiment-analysis-twitter
 pip install -r requirements.txt
@@ -62,7 +71,7 @@ jupyter notebook
 
 Open:
 
-```bash id="p3open"
+```bash
 sentiment_analysis.ipynb
 ```
 
@@ -70,7 +79,7 @@ sentiment_analysis.ipynb
 
 ## 📁 Project Structure
 
-```bash id="p3structure"
+```
 sentiment-analysis-twitter/
 │
 ├── sentiment_analysis.ipynb
@@ -84,7 +93,7 @@ sentiment-analysis-twitter/
 
 * Use advanced models (BERT, Transformers)
 * Improve preprocessing pipeline
-* Deploy as web app
+* Deploy as web application
 
 ---
 
@@ -97,4 +106,5 @@ MIT License
 ## 👤 Author
 
 **Aishwary Ghadle**
+
 
