@@ -4,6 +4,12 @@
 
 This project implements a sentiment analysis model using deep learning techniques to classify tweets as positive or negative.
 
+## 🔧 Technologies Used
+- Python  
+- TensorFlow / Keras  
+- NLTK  
+- Scikit-learn  
+- NumPy / Pandas   
 ---
 
 ## ❗ Problem Statement
@@ -44,9 +50,11 @@ To build a sentiment analysis model on Twitter data using deep learning techniqu
 ---
 
 ## 📈 Results
+- Model successfully classifies sentiment into positive and negative categories  
+- Demonstrates effective text pattern recognition  
 
-* Model successfully classifies sentiment into positive and negative categories
-* Demonstrates effective text pattern recognition
+**Real-world impact:**  
+Useful for analyzing customer feedback and product reviews.
 
 ---
 
